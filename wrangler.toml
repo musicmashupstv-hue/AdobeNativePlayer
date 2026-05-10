@@ -1,0 +1,9 @@
+name = "adobe-native"
+main = "worker.js"
+compatibility_date = "2025-05-10"
+
+workers_dev = true
+
+# Only the HMAC secret is required (set via `wrangler secret put HMAC_SECRET`)
+
+# No AI binding, no origin URL, no R2/KV
